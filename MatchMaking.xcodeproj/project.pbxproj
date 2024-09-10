@@ -31,7 +31,6 @@
 		959E70B92C8B2696007C3E8C /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959E70AB2C8B2696007C3E8C /* ProfileViewModel.swift */; };
 		959E70BA2C8B2696007C3E8C /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959E70AD2C8B2696007C3E8C /* ProfileModel.swift */; };
 		959E70BB2C8B2696007C3E8C /* MatchMaking.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 959E70AF2C8B2696007C3E8C /* MatchMaking.xcdatamodeld */; };
-		959E70BE2C8B26C6007C3E8C /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 959E70BD2C8B26C6007C3E8C /* SDWebImageSwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,7 +68,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				959E70BE2C8B26C6007C3E8C /* SDWebImageSwiftUI in Frameworks */,
 				531565776E37BF9A82B25D6F /* Pods_MatchMaking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -201,7 +199,6 @@
 			);
 			name = MatchMaking;
 			packageProductDependencies = (
-				959E70BD2C8B26C6007C3E8C /* SDWebImageSwiftUI */,
 			);
 			productName = MatchMaking;
 			productReference = 959E707D2C8B2541007C3E8C /* MatchMaking.app */;
@@ -232,7 +229,6 @@
 			);
 			mainGroup = 959E70742C8B2541007C3E8C;
 			packageReferences = (
-				959E70BC2C8B26C6007C3E8C /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 			);
 			productRefGroup = 959E707E2C8B2541007C3E8C /* Products */;
 			projectDirPath = "";
@@ -530,25 +526,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		959E70BC2C8B26C6007C3E8C /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 3.1.2;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		959E70BD2C8B26C6007C3E8C /* SDWebImageSwiftUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 959E70BC2C8B26C6007C3E8C /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
-			productName = SDWebImageSwiftUI;
-		};
-/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		959E708F2C8B25F2007C3E8C /* MatchMaking.xcdatamodeld */ = {
